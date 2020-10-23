@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #24244e;
+  width: 20%;
+  color: #fff;
+}
+
+.container {
+  margin-top: 75px;
+}
+.container ul li {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.container ul svg {
+  margin-right: 5px;
+}
+
+.container ul {
+  padding: 0px;
+}
+
+.container li {
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+rect {
+  fill: grey;
+}
+
+.active {
+  background-color: #4c70cb;
+}
+
+.empresa {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #848484;
+}
+
+.empresa svg {
+  margin: 10px 20px;
+}
+
+.empresa span {
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.section-right {
+  width: 80%;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #848484;
+}
+
+.profile ul li {
+  margin-right: 15px;
+}
+
+.profile ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  margin-right: 5px;
+}
+
+.user span i {
+  margin-left: 2px;
+}
+
+.notification {
+  position: relative;
+}
+
+.notification::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 5px;
+  background-color: #fe5723;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+}
+
+.container-right {
+  padding: 40px;
+}
+
+.container-right .name {
+  display: flex;
+  align-items: center;
+}
+
+.container-right table tr td img {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+th {
+  text-align: left;
+}
+
+td,
+th {
+  padding: 8px;
+  border-bottom: 1px solid #b0b0b0;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.action i {
+  margin-right: 10px;
+}
+
+.fa-sync-alt {
+  color: #48b826;
+}
+
+.fa-ban {
+  color: #e04733;
+}
+
+.fa-trash-alt {
+  color: #2a5ece;
+}
+
+.filter p {
+  color: #808080;
+  margin-bottom: 30px;
+}
+
+.filter span {
+  background-color: #67f244;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: 13px;
+}
